@@ -1,5 +1,8 @@
 # Apuntes sobre TypeScript
 
+- Prácticas personales:
+    - [Tic tac toe](https://tictactoe-ts-react-lazodev.netlify.app/)
+
 - Tomado del [Curso de Fernando Herrera](https://www.youtube.com/playlist?list=PLCKuOXG0bPi26-eawizqyLOgM7j66H_4M) en Youtube.
 - [Ver aplicación](https://typescript-react-lazodev.netlify.app/)
 
