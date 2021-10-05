@@ -1,0 +1,54 @@
+// @import '~bulma/sass/utilities/_all'
+@import '../../index.sass'
+
+.tabletop
+	background-color: $danger
+
+.gameitemrow
+	margin-bottom: .5rem
+
+.gameitemrow:last-child
+	margin-bottom: 0
+
+.gameitem
+	background-color: $success
+	margin-right: .5rem
+	cursor: pointer
+
+	&:hover
+		background-color: $light
+
+.gameitem-size-3
+	width: 6rem
+	height: 6rem
+
+.gameitem-size-4
+	width: 5rem
+	height: 5rem
+
+.gameitem-size-5
+	width: 4rem
+	height: 4rem
+
+.gameitem:last-child
+	margin-right: 0
+
+@media (max-width: 768px)
+	.gameitem-size-5
+		width: 3rem
+		height: 3rem
+
+@media (max-width: 600px)
+	.tabletop
+		width: 100%
+
+	.gamearea
+		width: 100%
+
+	.gameitemrow
+		width: 100%
+
+	.gameitem
+		flex-grow: 1
+		height: auto
+		aspect-ratio: 1 / 1
